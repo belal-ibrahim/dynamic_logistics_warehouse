@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>dynamic-logistics-warehouse</name>
+  <version>1.0.0</version>
+  <description>
+   LARGE INDUTRIAL WAREHOUSE
+  </description>
+  <license>Apache 2.0</license>
+  <author email="belalonium@outlook.com"></author>
+  <maintainer email="belalonium@outlook.com"></maintainer>
+  <buildtool_depend>catkin</buildtool_depend>
+  <exec_depend>gazebo_ros</exec_depend>
+  <exec_depend>gazebo</exec_depend>
+  <exec_depend>gazebo_plugins</exec_depend>
+  <export>
+    <gazebo_ros plugin_path="${prefix}/lib" gazebo_media_path="${prefix}" gazebo_model_path="${prefix}/models"/>
+  </export>
+</package>
