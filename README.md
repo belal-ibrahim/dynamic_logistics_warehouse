@@ -50,7 +50,7 @@ To open this world in Gazebo, change the directory to your ROS workspace root fo
 ```bash
 cd dynamic-logistics-warehouse
 export GAZEBO_MODEL_PATH=`pwd`/models
-gazebo worlds/logistics_warehouse.world
+gazebo worlds/warehouse.world
 ```
 
 
