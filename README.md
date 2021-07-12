@@ -3,7 +3,7 @@
 
 Gazebo simulation of dynamics environment in warehouses. An extensive model of AWS-robomaker-small-warehouse.
 
-Specifications:
+### Specifications:
 * 7 Actors following different waypoints to perform trajectory path.
 * 5 Light sources 
 * Shelves
