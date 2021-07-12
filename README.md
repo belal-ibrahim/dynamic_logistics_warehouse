@@ -6,9 +6,9 @@ Gazebo simulation of dynamics environment in warehouses.An extensive model of AW
   
 
 
+![test](https://user-images.githubusercontent.com/27731036/125352251-98e87180-e393-11eb-8feb-56853ab26f72.gif)
+  <launch>
 
-
-https://user-images.githubusercontent.com/27731036/125346494-6a1acd00-e38c-11eb-9045-096ccc5b220c.mp4
 
 
 
@@ -27,7 +27,7 @@ https://user-images.githubusercontent.com/27731036/125346494-6a1acd00-e38c-11eb-
 * Add the following include to the ROS launch file you are using:
 
   ```xml
-  <launch>
+
   <!-- Launch World -->
   <include file="$(find dynamic_logistics_warehouse)/launch/logistics_warehouse.launch"/>
   ...
