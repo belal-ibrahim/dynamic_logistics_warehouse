@@ -5,7 +5,7 @@ Gazebo simulation of dynamics environment in warehouses. An extensive model of A
 
 Specifications:
 * 7 Actors following different waypoints to perform trajectory path.
-* 5 Light source 
+* 5 Light sources 
 * Shelves
 * PalletJack
 * Desks
