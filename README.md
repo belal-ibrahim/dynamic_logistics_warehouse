@@ -2,7 +2,10 @@
 Gazebo simulation of dynamics environment in warehouses.An extensive model of AWS-robomaker-small-warehouse.
 
 
-![test2](https://user-images.githubusercontent.com/27731036/125345353-06dc6b00-e38b-11eb-9d00-1f5a59baee65.gif)
+
+https://user-images.githubusercontent.com/27731036/125346494-6a1acd00-e38c-11eb-9045-096ccc5b220c.mp4
+
+
 
 
 
@@ -21,7 +24,7 @@ Gazebo simulation of dynamics environment in warehouses.An extensive model of AW
   ```xml
   <launch>
   <!-- Launch World -->
-  <include file="$(find dynamic-logistics-warehouse)/launch/logistics-warehouse.launch"/>
+  <include file="$(find dynamic_logistics_warehouse)/launch/logistics_warehouse.launch"/>
   ...
   </launch>
   ```
@@ -41,7 +44,7 @@ To open this world in Gazebo, change the directory to your ROS workspace root fo
 ```bash
 cd dynamic-logistics-warehouse
 export GAZEBO_MODEL_PATH=`pwd`/models
-gazebo worlds/logistics-warehouse.world
+gazebo worlds/logistics_warehouse.world
 ```
 
 
@@ -60,5 +63,5 @@ colcon build
 
 # run in ROS
 source install/setup.sh
-roslaunch dynamic-logistics-warehouse logistics-warehouse.launch
+roslaunch dynamic_logistics_warehouse logistics_warehouse.launch
 ```
