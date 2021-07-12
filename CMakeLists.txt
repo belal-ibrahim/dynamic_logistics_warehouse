@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 2.8.3)
-project(aws_robomaker_small_warehouse_world)
+project(dynamic_logistics_warehouse)
 
 find_package(catkin REQUIRED COMPONENTS
   gazebo_ros
