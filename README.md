@@ -1,7 +1,16 @@
 
 # Dynamic_logistics_Warehouse
 
-Gazebo simulation of dynamics environment in warehouses.An extensive model of AWS-robomaker-small-warehouse.
+Gazebo simulation of dynamics environment in warehouses. An extensive model of AWS-robomaker-small-warehouse.
+Specifications:
+* 7 Actors following different waypoints to perform trajectory path.
+* Light source 
+* Shelfs
+* PalletJack
+* Desks
+* Trashcan
+* Cluttering
+
 
   
 
